@@ -13,6 +13,7 @@
 		0FD478C02E3266C400D33FCF /* ImageResizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */; };
 		0FD478C12E3266C400D33FCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD478B52E3266C400D33FCF /* Preview Assets.xcassets */; };
 		0FD478C22E3266C400D33FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD478B82E3266C400D33FCF /* Assets.xcassets */; };
+		0FD478C42E3271C400D33FCF /* ImageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478C32E3271C400D33FCF /* ImageResize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0FD478B92E3266C400D33FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FD478BA2E3266C400D33FCF /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
 		0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeApp.swift; sourceTree = "<group>"; };
+		0FD478C32E3271C400D33FCF /* ImageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				0FD478B82E3266C400D33FCF /* Assets.xcassets */,
 				0FD478B92E3266C400D33FCF /* ContentView.swift */,
 				0FD478BA2E3266C400D33FCF /* ImagePickerViewModel.swift */,
+				0FD478C32E3271C400D33FCF /* ImageResize.swift */,
 				0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */,
 			);
 			path = ImageResize;
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD478C42E3271C400D33FCF /* ImageResize.swift in Sources */,
 				0FD478BD2E3266C400D33FCF /* APIManager.swift in Sources */,
 				0FD478BE2E3266C400D33FCF /* ContentView.swift in Sources */,
 				0FD478BF2E3266C400D33FCF /* ImagePickerViewModel.swift in Sources */,
