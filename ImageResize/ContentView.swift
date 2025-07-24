@@ -39,9 +39,27 @@ struct ContentView: View {
                             .cornerRadius(12)
                             .shadow(radius: 5)
                         
-                        Text("Selected Image")
-                            .font(.headline)
-                            .foregroundColor(.primary)
+                        VStack(spacing: 5) {
+                            Text("Selected Image")
+                                .font(.headline)
+                                .foregroundColor(.primary)
+                            
+                            // Show image dimensions
+                            let cgImage = selectedImage.cgImage
+                            let width = cgImage?.width ?? Int(selectedImage.size.width)
+                            let height = cgImage?.height ?? Int(selectedImage.size.height)
+                            Text("\(width) × \(height) pixels")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                            
+                            // Show resizing info if image is large
+                            if width > 1080 || height > 1080 {
+                                Text("⚠️ Will be automatically resized to fit 1080p limit")
+                                    .font(.caption)
+                                    .foregroundColor(.orange)
+                                    .multilineTextAlignment(.center)
+                            }
+                        }
                     }
                 } else {
                     // Placeholder
