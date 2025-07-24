@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0FD478BD2E3266C400D33FCF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478B72E3266C400D33FCF /* APIManager.swift */; };
+		0FD478BE2E3266C400D33FCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478B92E3266C400D33FCF /* ContentView.swift */; };
+		0FD478BF2E3266C400D33FCF /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478BA2E3266C400D33FCF /* ImagePickerViewModel.swift */; };
+		0FD478C02E3266C400D33FCF /* ImageResizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */; };
+		0FD478C12E3266C400D33FCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD478B52E3266C400D33FCF /* Preview Assets.xcassets */; };
+		0FD478C22E3266C400D33FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD478B82E3266C400D33FCF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0FD4788B2E32641400D33FCF /* ImageResize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageResize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD478B52E3266C400D33FCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FD478B72E3266C400D33FCF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0FD478B82E3266C400D33FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FD478B92E3266C400D33FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FD478BA2E3266C400D33FCF /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0FD4788D2E32641400D33FCF /* ImageResize */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ImageResize;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0FD478882E32641400D33FCF /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		0FD478822E32641400D33FCF = {
 			isa = PBXGroup;
 			children = (
-				0FD4788D2E32641400D33FCF /* ImageResize */,
+				0FD478BC2E3266C400D33FCF /* ImageResize */,
 				0FD4788C2E32641400D33FCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,27 @@
 				0FD4788B2E32641400D33FCF /* ImageResize.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0FD478B62E3266C400D33FCF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FD478B52E3266C400D33FCF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FD478BC2E3266C400D33FCF /* ImageResize */ = {
+			isa = PBXGroup;
+			children = (
+				0FD478B62E3266C400D33FCF /* Preview Content */,
+				0FD478B72E3266C400D33FCF /* APIManager.swift */,
+				0FD478B82E3266C400D33FCF /* Assets.xcassets */,
+				0FD478B92E3266C400D33FCF /* ContentView.swift */,
+				0FD478BA2E3266C400D33FCF /* ImagePickerViewModel.swift */,
+				0FD478BB2E3266C400D33FCF /* ImageResizeApp.swift */,
+			);
+			path = ImageResize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0FD4788D2E32641400D33FCF /* ImageResize */,
 			);
 			name = ImageResize;
 			packageProductDependencies = (
@@ -109,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD478C12E3266C400D33FCF /* Preview Assets.xcassets in Resources */,
+				0FD478C22E3266C400D33FCF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD478BD2E3266C400D33FCF /* APIManager.swift in Sources */,
+				0FD478BE2E3266C400D33FCF /* ContentView.swift in Sources */,
+				0FD478BF2E3266C400D33FCF /* ImagePickerViewModel.swift in Sources */,
+				0FD478C02E3266C400D33FCF /* ImageResizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +286,7 @@
 				DEVELOPMENT_TEAM = X3YKR6M53J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow photo and video capture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +316,7 @@
 				DEVELOPMENT_TEAM = X3YKR6M53J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow photo and video capture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
